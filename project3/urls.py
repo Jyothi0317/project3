@@ -25,4 +25,8 @@ urlpatterns = [
     path('third/', views.third,name="third"),
     path('fourth/', views.fourth,name="fourth"),
     path('fifth/', views.fifth,name="fifth"),
+    path('url_data/<name>', views.url_data,name="url_data"),
+    path('ab/<a>/<b>', views.ab,name="ab"),
+    path('st/<input>', views.st,name="st"),
+    path('vowel/<input>', views.vowel, name='vowel'),
 ]
